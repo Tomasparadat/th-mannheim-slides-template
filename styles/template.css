@@ -1,0 +1,132 @@
+/* Measurements from the PPTX, scaled from EMU to a 1280 px canvas.
+   Source canvas: 24382413 × 13684250 EMU (slightly wider than 16:9). */
+:root {
+  --th-blue: #0000ff;
+  --th-black: #000000;
+  --th-white: #ffffff;
+  --th-light: #f3f8ff;
+  --th-accent-2: #1e38ff;
+  --th-accent-3: #3666ff;
+  --th-accent-4: #6597fc;
+  --th-accent-5: #88b3ff;
+  --th-accent-6: #b0d0ff;
+}
+
+.slidev-layout.th-slide {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  overflow: hidden;
+  background: var(--th-white);
+  color: var(--th-black);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 26.67px;
+  font-weight: 400;
+  line-height: .9;
+  letter-spacing: -.007px;
+  text-align: left;
+}
+
+.th-slide .th-logo {
+  position: absolute;
+  left: 80.394%;
+  top: 5.462%;
+  width: 16.264%;
+  height: 10.965%;
+  object-fit: fill;
+}
+
+.th-slide .th-content {
+  position: absolute;
+  inset: 0;
+}
+
+.th-slide h1 {
+  position: absolute;
+  left: 8.586%;
+  top: 8.718%;
+  width: 70.5%;
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: .9;
+  letter-spacing: -.007px;
+}
+
+.th-slide .th-footer,
+.th-slide .th-page {
+  position: absolute;
+  top: 92.94%;
+  height: 5.322%;
+  display: flex;
+  align-items: center;
+  font-size: 13.33px;
+  font-weight: 400;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.th-slide .th-footer { left: 8.586%; }
+.th-slide .th-page { right: 4.515%; justify-content: flex-end; }
+
+.th-slide ul {
+  position: absolute;
+  left: 8.586%;
+  top: 17.844%;
+  width: 86.9%;
+  margin: 0;
+  padding: 0 0 0 24px;
+  list-style-type: disc;
+}
+
+.th-slide li {
+  margin: 0 0 13.31px;
+  padding: 0;
+  font-size: 26.67px;
+  line-height: .9;
+}
+
+.th-slide li::marker { font-family: Arial, sans-serif; }
+.th-slide li p { margin: 0; line-height: inherit; }
+
+.slidev-layout.th-cover,
+.slidev-layout.th-chapter { background: var(--th-blue); color: var(--th-white); }
+
+.th-cover .th-logo {
+  left: 6.149%;
+  top: 16.043%;
+  width: 29.977%;
+  height: 20.207%;
+}
+
+.th-cover .th-cover-mark {
+  position: absolute;
+  left: 72.217%;
+  top: 52.423%;
+  width: 23.11%;
+  height: 39.346%;
+}
+
+.th-cover h1 { top: 76.273%; width: 60.15%; }
+.th-cover .th-footer { top: 88.607%; font-size: 18.67px; }
+.th-chapter h1 { top: 42.288%; width: 86.9%; }
+
+.th-image .image-area {
+  position: absolute;
+  left: 8.586%;
+  top: 16.012%;
+  width: 86.9%;
+  height: 77.796%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26.67px;
+}
+
+.th-image .image-area img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

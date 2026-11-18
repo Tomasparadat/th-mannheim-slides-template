@@ -1,0 +1,20 @@
+{
+  "name": "th-mannheim-slidev",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "slidev slides.md",
+    "build": "slidev build slides.md",
+    "export": "slidev export slides.md --output presentation.pdf"
+  },
+  "dependencies": {
+    "@slidev/cli": "53.1.0",
+    "@fontsource/plus-jakarta-sans": "5.3.0"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.56.0"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
