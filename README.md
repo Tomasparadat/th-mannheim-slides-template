@@ -21,6 +21,19 @@ Open the local URL shown in the terminal. Changes appear automatically; use the 
 - Put images in `public/images/` and reference them as `/images/filename.png`. The image slide includes an example.
 - Adjust colors, typography, and spacing in `styles/template.css`.
 
+### Components and animations
+
+- Create reusable Vue components in `components/`, then use them directly in `slides.md`, e.g. `<MyDiagram />`. Use Vue state, props, and events for interactive diagrams or demos.
+- Add click reveals with `v-click` on an element or wrap a list in `<v-clicks>` to reveal each item in sequence. Use CSS animations or Vue’s `<Transition>` inside components for custom effects.
+- Create custom slide layouts in `layouts/`. The existing layouts use `components/TemplateFrame.vue` for shared branding and footers.
+
+```html
+<div v-click>Revealed on the next click</div>
+<MyDiagram />
+```
+
+The example slide in `slides.md` combines click reveals with `components/CounterDemo.vue`, an interactive counter using Vue state, a prop, and an animated transition.
+
 ## Export
 
 ```sh
