@@ -1,6 +1,8 @@
 # TH Mannheim Presentation Template
 
-A reusable Slidev template for presentations at Technische Hochschule Mannheim. Write slides in Markdown using layouts for title slides, chapter dividers, bullet points, and images.
+Unofficial - reusable Slidev template for presentations at Technische Hochschule Mannheim. Write slides in Markdown using layouts for title slides, chapter dividers, bullet points, and images.
+
+Please note that use of the logo for purposes unrelated to Technische Hochschule Mannheim may be prohibited.
 
 ## Setup
 
