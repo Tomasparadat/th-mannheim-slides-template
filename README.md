@@ -32,8 +32,6 @@ Open the local URL shown in the terminal. Changes appear automatically; use the 
 <MyDiagram />
 ```
 
-The example slide in `slides.md` combines click reveals with `components/CounterDemo.vue`, an interactive counter using Vue state, a prop, and an animated transition.
-
 ## Export
 
 ```sh
