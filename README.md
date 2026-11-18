@@ -18,15 +18,19 @@ Open the local URL shown in the terminal. Changes appear automatically; use the 
 ## Create your presentation
 
 - Edit `slides.md`: set the `title` and `author` at the top, then update the visible title and slide content.
+
 - Replace `Professor` in `components/TemplateFrame.vue` with your lecturer’s name.
+
 - Duplicate existing slides to add content. Available layouts: `cover`, `chapter`, `default`, and `image`.
+
 - Put images in `public/images/` and reference them as `/images/filename.png`. The image slide includes an example.
+
 - Adjust colors, typography, and spacing in `styles/template.css`.
 
 ### Components and animations
 
 - Create reusable Vue components in `components/`, then use them directly in `slides.md`, e.g. `<MyDiagram />`. Use Vue state, props, and events for interactive diagrams or demos.
-- Add click reveals with `v-click` on an element or wrap a list in `<v-clicks>` to reveal each item in sequence. Use CSS animations or Vue’s `<Transition>` inside components for custom effects.
+
 - Create custom slide layouts in `layouts/`. The existing layouts use `components/TemplateFrame.vue` for shared branding and footers.
 
 ```html
