@@ -1,5 +1,3 @@
-/* Measurements from the PPTX, scaled from EMU to a 1280 px canvas.
-   Source canvas: 24382413 × 13684250 EMU (slightly wider than 16:9). */
 :root {
   --th-blue: #0000ff;
   --th-black: #000000;
@@ -68,8 +66,14 @@
   white-space: nowrap;
 }
 
-.th-slide .th-footer { left: 8.586%; }
-.th-slide .th-page { right: 4.515%; justify-content: flex-end; }
+.th-slide .th-footer {
+  left: 8.586%;
+}
+
+.th-slide .th-page {
+  right: 4.515%;
+  justify-content: flex-end;
+}
 
 .th-slide ul {
   position: absolute;
@@ -88,11 +92,20 @@
   line-height: .9;
 }
 
-.th-slide li::marker { font-family: Arial, sans-serif; }
-.th-slide li p { margin: 0; line-height: inherit; }
+.th-slide li::marker {
+  font-family: Arial, sans-serif;
+}
+
+.th-slide li p {
+  margin: 0;
+  line-height: inherit;
+}
 
 .slidev-layout.th-cover,
-.slidev-layout.th-chapter { background: var(--th-blue); color: var(--th-white); }
+.slidev-layout.th-chapter {
+  background: var(--th-blue);
+  color: var(--th-white);
+}
 
 .th-cover .th-logo {
   left: 6.149%;
@@ -109,9 +122,20 @@
   height: 39.346%;
 }
 
-.th-cover h1 { top: 76.273%; width: 60.15%; }
-.th-cover .th-footer { top: 88.607%; font-size: 18.67px; }
-.th-chapter h1 { top: 42.288%; width: 86.9%; }
+.th-cover h1 {
+  top: 76.273%;
+  width: 60.15%;
+}
+
+.th-cover .th-footer {
+  top: 88.607%;
+  font-size: 18.67px;
+}
+
+.th-chapter h1 {
+  top: 42.288%;
+  width: 86.9%;
+}
 
 .th-image .image-area {
   position: absolute;
